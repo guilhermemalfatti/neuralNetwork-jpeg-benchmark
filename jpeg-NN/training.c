@@ -3,6 +3,10 @@ compile:
     g++ -O3 -std=c++11 training.c -o training -lfann -lm
 
 execution:
+
+obs:
+if fann dont work, we need link the libraries
+ ln -s /usr/local/lib/*fann* /usr/lib/
     
 */
 #include "fann.h"
