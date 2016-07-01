@@ -1,6 +1,6 @@
 /*
 compile:
-	g++ -O3 -std=c++11 execution.c -o execution -lfann -lm
+	g++ -O3 -std=c++11 execution.c -o execution -lfann -lm -static /mnt/gmalfatti/git/gem5-stable/util/m5/m5op_x86.S  -fopenmp
 
 execution:
 
